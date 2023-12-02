@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coldplay - Find Us!</title>
+    <script src="https://kit.fontawesome.com/d00e1412f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="includedContent"></div>
+    <div class="socialmedia">
+        <h1>Connect with Us!</h1>
+        <div class="img-ico-container">
+            <img src="assets/coldplayconcert.jpg" alt="Coldplay">
+            <div class="icons">
+                <a href="https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU?si=s-S_wvFOTGyuYaBbA7X5Eg" target="_blank">
+                    <i class="fab fa-spotify"></i>
+                </a>
+                <a href="https://www.youtube.com/@coldplay" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://music.apple.com/us/artist/coldplay/471744" target="_blank">
+                    <i class="fab fa-apple"></i>
+                </a>
+                <a href="https://www.instagram.com/coldplay/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@coldplay" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://twitter.com/coldplay" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/coldplay" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="registration">
+        <div class="center-box">
+        <h2>Let's keep in touch !</h2>
+        <h3>Sign Up to our newsletter and be the first to know about any news or notifications</h3>
+        <form>
+            <input type="text" id="username" name="name" placeholder="Name" required>
+            <div class="phone-container">
+               <select id="countryCode" name="countryCode" class="dropdown" placeholder="Country Code" required></select>
+                <input type="tel" id="phone-num" name="phone-num"  placeholder="Phone number" required>  
+            </div>
+            <input type="email" id="email" name="email" placeholder="email" required>
+            <input type="date" id="date" name="date" placeholder="Birthday" required>
+            <div class="email">
+                <input type="checkbox" id="news1" name="news1" value="email">
+                <label for="news1">I wish to receive the newsletter via email</label><br>
+            </div>
+            <div class="num">
+                <input type="checkbox" id="news2" name="news2" value="phone-num">
+                <label for="news1">I wish to receive the newsletter via SMS </label><br>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div> 
+    <script src="script.js"></script>   
+</body>
+</html>
